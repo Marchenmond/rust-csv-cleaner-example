@@ -1,0 +1,25 @@
+[package]
+name = "rust-csv-cleaner-example"
+version = "0.1.0"
+edition = "2021"
+description = "Small CLI that validates, de-duplicates and trims CSV files and reports what it changed"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/Marchenmond/rust-csv-cleaner-example"
+keywords = ["csv", "cli", "data-cleaning"]
+categories = ["command-line-utilities"]
+
+[lib]
+name = "csv_cleaner"
+path = "src/lib.rs"
+
+[[bin]]
+name = "csv-cleaner"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+csv = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+toml = "0.8"

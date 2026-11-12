@@ -1,0 +1,23 @@
+# One [[columns]] block per column you want to check.
+# type: string (default), integer, float or bool.
+
+[[columns]]
+name = "id"
+type = "integer"
+required = true
+
+[[columns]]
+name = "name"
+required = true
+
+[[columns]]
+name = "email"
+required = true
+
+[[columns]]
+name = "age"
+type = "integer"
+
+[[columns]]
+name = "balance"
+type = "float"

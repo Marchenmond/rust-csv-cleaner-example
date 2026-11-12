@@ -1,0 +1,9 @@
+id, name ,email,age,balance
+1, Ana Silva ,ana@example.com,34,120.50
+2,Ben Carter,ben@example.com,28,80
+2,Ben Carter ,ben@example.com ,28,80
+3,Chloe Dubois,,41,15.25
+4,Dan Okafor,dan@example.com,abc,40
+5,Eve Larsen,eve@example.com,52,n/a
+6,Faye Tanaka,faye@example.com,19,0
+7, Gus Moreno ,gus@example.com,60,300.10
